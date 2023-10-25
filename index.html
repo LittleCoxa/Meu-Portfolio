@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+
+    <link rel="stylesheet" href="Estilo.css">
+    <link rel="icon" href="imagens/Jv_logo.png">
+    <script src="Func.js"></script>
+
+
+<script src="https://cdn.gtranslate.net/widgets/latest/globe.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <img class="jv.logo" id="topo" src="imagens/Jv_logo.png" alt="" width="100" height="100">
+        <nav>
+            <ul>
+                <li><a href="#titulo01">Sobre Mim</a></li>
+                <li><a href="#project">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li>
+                    <div class="gtranslate_wrapper"></div>
+                </li>
+            </ul>
+        </nav>
+
+        <img src="" alt="">
+    </header>
+
+    <section class="centro">
+
+        <h1>Olá, Me Chamo <br> João Victor Mathias</h1>
+        <p class="função">Desenvolvedor Full Stack Junior</p>
+
+        <div class="cv">
+            <a class="baixar" href="/João Victor Assis.pdf" target="_blank">Download CV</a>
+            <a class="site" href="https://www.linkedin.com/in/joão-victor-mathias-de-assis" target="_blank">Linkedin</a>
+        </div>
+
+        <img class="pcs" src="imagens/pcs.png" alt="">
+
+    </section>
+
+    <section class="descrição">
+        <h2 class="titulo01" id="titulo01">Quem sou Eu ?</h2>
+        <p class="texto01">Sou um entusiasta apaixonado por tecnologia e estou
+            buscando me tornar um desenvolvedor Full Stack. Estou determinado a
+            construir uma carreira sólida nessa área dinâmica e em constante evolução.
+            Tenho um forte interesse em desenvolvimento de software e venho estudando e adquirindo conhecimentos
+            em diversas linguagens de programação, como HTML, CSS, JavaScript e Python. Acredito que a
+            capacidade de trabalhar em ambientes front-end e back-end é fundamental para criar soluções
+            completas e eficientes
+            Minha abordagem de aprendizado é orientada para projetos, onde busco aplicar minhas habilidades em
+            cenários reais para desenvolver aplicações web responsivas e intuitivas.
+        </p>
+
+        <div class="Contato">
+            <div>
+                <h3><strong>Meu Nome</strong></h3>
+                <p><a>João Victor Mathias</a></p>
+            </div>
+            <div>
+                <h3><strong>Email</strong></h3>
+                <p><a href="mailto:jomathias.assis@gmail.com" target="_blank">Jomathias.assis@gmail.com</a></p>
+            </div>
+            <div>
+                <h3><strong>GitHub</strong></h3>
+                <p><a href="https://github.com" target="_blank">@Litte Coxa</a></p>
+            </div>
+            <div>
+                <h3><strong>Celular</strong></h3>
+                <p><a href="https://wa.me/5521980228770" target="_blank">(21) 98022-8770</a></p>
+            </div>
+        </div>
+
+        <div class="titulo01">
+            <p class="Tlogos">Atualmente sou capacitado em:</p>
+
+            <figure class="logos">
+                <div class="logo-item">
+                    <img src="imagens/Html5_logo.png">
+                    <p>HTML5</p>
+                </div>
+                <div class="logo-item">
+                    <img src="imagens/Css_logo.png">
+                    <p>CSS</p>
+                </div>
+                <div class="logo-item">
+                    <img src="imagens/Js_logo.png">
+                    <p>JavaScript</p>
+                </div>
+            </figure>
+
+        </div>
+    </section>
+
+    <section class="projetos">
+        <h2 class="titulo04" id="project">Projetos</h2>
+        <div class="container">
+            <input type="radio" name="slider" id="item-1" checked />
+            <input type="radio" name="slider" id="item-2" />
+            <input type="radio" name="slider" id="item-3" />
+
+            <div class="cards">
+                <label class="card" id="song-1" for="item-1">
+                    <img class="arredondar" id="fotos-1" src="imagens/Pokedex.jpg" width="700" height="500" alt="">
+                </label>
+                <label class="card" id="song-2" for="item-2">
+                    <img class="arredondar" id="fotos-2" src="imagens/Glass.jpg" width="700" height="500" alt="">
+                </label>
+                <label class="card" id="song-3" for="item-3">
+                    <img class="arredondar" id="fotos-3" src="imagens/Relogio digiral.jpg" width="700" height="500"
+                        alt="">
+                </label>
+            </div>
+        </div>
+    </section>
+
+    <div class="detalhes">
+        <h2 id="titulo03">Pokedex</h2>
+        <p id="texto02">Esse projeto foi oque eu mais me aprofundei na programação de javascript e css,
+            nesse projeto executei tudo que eu tinha aprendido ate o momento para criar o melhor projeto
+            possivel com minhas habilidade no momento.</p>
+    </div>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const radioInputs = document.querySelectorAll('input[type="radio"][name="slider"]');
+            const titulotext = document.getElementById('titulo03')
+            const descriptionText = document.getElementById('texto02');
+
+            radioInputs.forEach(input => {
+                input.addEventListener('change', () => {
+                    if (input.checked) {
+                        const selectedProjectId = input.getAttribute('id');
+                        atualizarDescricao(selectedProjectId);
+                    }
+                });
+            });
+
+            function atualizarDescricao(idProjeto) {
+                switch (idProjeto) {
+                    case 'item-1':
+                        titulotext.textContent = "Pokedex"
+                        descriptionText.textContent = "Esse projeto foi oque eu mais me aprofundei na programação de javascript e css, nesse projeto executei tudo que eu tinha aprendido ate o momento para criar o melhor projeto possivel com minhas habilidade no momento."
+                        break;
+                    case 'item-2':
+                        titulotext.textContent = "Site do GoogleGlass"
+                        descriptionText.textContent = "Projeto criado durante a execução do meu curso de HTML5, esse foi meu primeiro projeto criado foi apartir dele que eu consegui aprender o basico para poder efetuar a criação de todos os meus outros projetos.";
+                        break;
+                    case 'item-3':
+                        titulotext.textContent = "Relógio Digital"
+                        descriptionText.textContent = "Projeto criado para aprendizado de JavaScript";
+                        break;
+                    default:
+                        descriptionText.textContent = "Descrição padrão";
+                        break;
+                }
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const telefoneInput = document.getElementById('celid');
+
+            telefoneInput.addEventListener('input', function (event) {
+                const input = event.target;
+                const value = input.value.replace(/\D/g, ''); // Remove todos os caracteres não numéricos
+
+                if (value.length === 0) {
+                    input.value = '';
+                } else if (value.length <= 2) {
+                    input.value = '(' + value;
+                } else if (value.length <= 6) {
+                    input.value = '(' + value.substring(0, 2) + ') ' + value.substring(2);
+                } else if (value.length <= 10) {
+                    input.value = '(' + value.substring(0, 2) + ') ' + value.substring(2, 6) + '-' + value.substring(6);
+                } else {
+                    input.value = '(' + value.substring(0, 2) + ') ' + value.substring(2, 7) + '-' + value.substring(7, 11);
+                }
+            });
+        });
+    </script>
+
+    <form action="https://api.staticforms.xyz/submit" method="post" name="Fale-cmg">
+
+        <h2 id="contato">Entre em Contato</h2>
+
+        <div>
+            <input type="text" placeholder="Nome" name="name" required="required" autocomplete="off"></input>
+            <input type="text" placeholder="Sobrenome" name="name" autocomplete="off"></input>
+        </div>
+
+        <div>
+            <input type="email" placeholder="Email" name="email" autocomplete="off"></input>
+            <input type="tel" maxlength="15" required="" id="celid" placeholder="Celular" class="num" name="phone"
+                autocomplete="off"></input>
+        </div>
+
+        <div>
+            <textarea name="message" cols="30" rows="10" placeholder="Mensagem"></textarea>
+        </div>
+
+        <input type="submit" class="enviar" value="Enviar" />
+        <input type="hidden" name="accessKey" value="6b98da19-2e5d-4328-8fdd-1a90c6523651">
+        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/Index.html?">
+    </form>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <footer>
+        <a class="topo"  href="#topo">&#9650;</a>
+    </footer>
+</body>
+
+</html>

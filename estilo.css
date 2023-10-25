@@ -1,0 +1,1604 @@
+body {
+    background-color: rgb(26, 22, 24);
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul {
+    margin: auto;
+}
+
+h1 {
+    color: white;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+.card {
+    position: absolute;
+
+    width: 60%;
+    height: 100%;
+
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    transition: transform .4s ease;
+    cursor: pointer;
+}
+
+.arredondar {
+    border-radius: 50px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.logo-item img {
+    margin-bottom: 10px;
+}
+
+.logo-item p {
+    color: rgb(39, 174, 96);
+}
+
+.detalhes {
+    background: rgb(164, 172, 175);
+
+    width: 700px;
+
+    padding-top: 1px;
+    padding-bottom: 5px;
+
+    margin-top: 550px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 5px;
+}
+
+#titulo03 {
+    background: rgb(199, 209, 213);
+
+    padding: 5px;
+
+    text-align: center;
+    font-size: 30pt;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: purple;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        max-width: 500px;
+
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 1px;
+    }
+
+    header {
+
+        margin-left: auto;
+        margin-left: auto;
+        margin-top: 1px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin-left: -20px;
+        margin-top: 35px;
+    }
+
+    .centro {
+        font-size: 17px;
+
+        text-align: left;
+
+        padding: 10px;
+
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .função {
+        color: grey;
+        font-size: 15px;
+
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+
+    .cv {
+        display: flex;
+        justify-content: space-between;
+
+        margin-top: 10px;
+        margin-left: 10px;
+
+        width: 250px;
+        height: 40px;
+
+    }
+
+    .baixar {
+        background-color: rgb(39, 174, 96);
+        padding: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        width: 90px;
+        cursor: pointer;
+        font-size: 13px;
+        text-align: center;
+        line-height: 20px;
+        color: black;
+    }
+
+    .baixar:hover {
+        box-shadow: 4px 4px 1px rgba(39, 174, 96, .3);
+    }
+
+    .site {
+        border: 2px rgb(255, 255, 255) solid;
+        color: white;
+        padding: 10px;
+        margin-left: 30px;
+        border-radius: 5px;
+        width: 90px;
+        cursor: pointer;
+        font-size: 13px;
+        text-align: center;
+        line-height: 20px;
+
+    }
+
+    .site:hover {
+        box-shadow: 4px 4px 1px rgba(255, 255, 255, .3);
+    }
+
+    .pcs {
+        display: none;
+    }
+
+    .descrição {
+        width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .texto01 {
+        font-size: 15px;
+        color: white;
+        text-align: justify;
+        padding: 10px;
+        margin-top: -20px;
+    }
+
+    .Contato {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        color: white;
+        width: 400px;
+
+        margin-left: -17px;
+
+    }
+
+    .Contato div {
+        flex-basis: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Contato p {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        color: green;
+    }
+
+    .Contato a {
+        text-decoration: none;
+        color: green;
+        font-size: 10px;
+
+    }
+
+    .Contato a:hover {
+        color: purple;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        color: purple;
+    }
+
+    .Tlogos {
+        font-size: 17pt;
+        margin-top: -35px;
+    }
+
+    .logo-item p {
+        font-size: 13px;
+    }
+
+    .projetos {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+
+    }
+
+    .titulo01 {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        padding: 6px;
+        margin-top: 80px;
+    }
+
+    .titulo04 {
+        font-size: 25pt;
+        color: white;
+        margin-top: 50px;
+        margin-left: px;
+        margin-bottom: -20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        max-width: 400px;
+        /* Adjust the maximum width as needed */
+        height: auto;
+        /* Adjust the height as needed */
+        margin: 0 auto;
+        /* Center the container horizontally */
+
+        transform-style: preserve-3d;
+        margin-top: 40px;
+        /* Adjust the top margin as needed */
+        margin-left: -70px;
+        margin-bottom: -320px;
+    }
+
+    .cards {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    #fotos {
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    #item-1:checked~.cards #song-3,
+    #item-2:checked~.cards #song-1,
+    #item-3:checked~.cards #song-2 {
+        transform: translatex(-40%) scale(.3);
+        opacity: .4;
+        z-index: 0;
+    }
+
+    #item-1:checked~.cards #song-2,
+    #item-2:checked~.cards #song-3,
+    #item-3:checked~.cards #song-1 {
+        transform: translatex(40%) scale(.3);
+        opacity: .4;
+        z-index: 0;
+    }
+
+    #item-1:checked~.cards #song-1,
+    #item-2:checked~.cards #song-2,
+    #item-3:checked~.cards #song-3 {
+        transform: translatex(0) scale(.4);
+        opacity: 1;
+        z-index: 1;
+
+        #fotos {
+            box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+        }
+    }
+
+    .titulo02 {
+        font-size: 20pt;
+        color: white;
+
+        margin-top: 50px;
+        margin-bottom: -20px;
+        padding-bottom: 20px;
+
+
+        text-align: center;
+    }
+
+    #texto02 {
+        font-size: 17px;
+        width: 360px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        text-align: justify;
+    }
+
+    #titulo03 {
+        background: rgb(199, 209, 213);
+
+        padding: 5px;
+
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .detalhes {
+        background: rgb(164, 172, 175);
+
+        width: 380px;
+
+        padding-top: 1px;
+        padding-bottom: 5px;
+
+        margin-top: 550px;
+        margin-left: auto;
+        margin-right: auto;
+
+        border-radius: 5px;
+    }
+
+    form {
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 15px;
+        max-width: 400px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 300px;
+
+        text-align: center;
+    }
+
+    form h2 {
+        color: white;
+        font-size: 35px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    input,
+    textarea {
+        width: 100px;
+        padding: 4px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    input {
+        background: transparent;
+        color: white;
+
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid rgb(79, 79, 79);
+
+    }
+
+    input:focus {
+        outline: none;
+        border-bottom-color: green;
+    }
+
+    input:not(:focus) {
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid rgb(79, 79, 79);
+    }
+
+    textarea {
+        background: transparent;
+        border: 2px solid rgb(79, 79, 79);
+        margin-top: 40px;
+        width: 320px;
+        height: 170px;
+        line-height: 20px;
+        color: white;
+    }
+
+    .enviar {
+        background-color: rgb(39, 174, 96);
+        height: 40px;
+        width: 100px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid;
+        color: black;
+    }
+
+    .enviar:not(:focus) {
+        background-color: green;
+    }
+
+    .topo {
+        position: fixed;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(39, 174, 96);
+        padding: 10px;
+
+        top: 650px;
+        right: 10px;
+
+    }
+
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    body {
+        max-width: 768px;
+
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 1px;
+    }
+
+    header {
+
+        margin-left: auto;
+        margin-left: auto;
+        margin-top: 20px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 350px;
+    }
+
+    .centro {
+        font-size: 20px;
+
+        text-align: left;
+
+        padding: 10px;
+
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .função {
+        color: grey;
+        font-size: 15px;
+
+        margin-top: -27px;
+        margin-left: 10px;
+    }
+
+    .cv {
+        display: flex;
+        justify-content: space-between;
+
+        margin-top: -10px;
+        margin-left: 10px;
+
+        width: 270px;
+        height: 40px;
+
+    }
+
+    .baixar {
+        background-color: rgb(39, 174, 96);
+        padding: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        width: 150px;
+        cursor: pointer;
+        font-size: 15px;
+        text-align: center;
+        color: black;
+    }
+
+    .baixar:hover {
+        box-shadow: 4px 4px 1px rgba(39, 174, 96, .3);
+    }
+
+    .site {
+        border: 2px rgb(255, 255, 255) solid;
+        color: white;
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 5px;
+        width: 150px;
+        cursor: pointer;
+        font-size: 15px;
+        text-align: center;
+
+    }
+
+    .site:hover {
+        box-shadow: 4px 4px 1px rgba(255, 255, 255, .3);
+    }
+
+    .pcs {
+        display: none;
+    }
+
+    .descrição {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .texto01 {
+        font-size: 18px;
+        color: white;
+        text-align: justify;
+        padding: 10px;
+        margin-top: -20px;
+    }
+
+    .Contato {
+        display: flex;
+        justify-content: space-between;
+        font-size: 22px;
+        color: white;
+        width: 530px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .Contato div {
+        flex-basis: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Contato p {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: green;
+    }
+
+    .Contato a {
+        text-decoration: none;
+        color: green;
+        font-size: 14px;
+
+    }
+
+    .Contato a:hover {
+        color: purple;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        color: purple;
+    }
+
+    .Tlogos {
+        font-size: 20pt;
+    }
+
+    .logo-item p {
+        font-size: 15px;
+    }
+
+    .projetos {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+
+    }
+
+    .titulo01 {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        padding: 6px;
+        margin-top: 80px;
+    }
+
+    .titulo04 {
+        font-size: 20pt;
+        color: white;
+        margin-top: 50px;
+        margin-left: px;
+        margin-bottom: -20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        max-width: 768px;
+        /* Adjust the maximum width as needed */
+        height: auto;
+        /* Adjust the height as needed */
+        margin: 0 auto;
+        /* Center the container horizontally */
+
+        transform-style: preserve-3d;
+        margin-top: 20px;
+        /* Adjust the top margin as needed */
+        margin-left: -100px;
+    }
+
+    .cards {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    #fotos {
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    #item-1:checked~.cards #song-3,
+    #item-2:checked~.cards #song-1,
+    #item-3:checked~.cards #song-2 {
+        transform: translatex(-40%) scale(.5);
+        opacity: .4;
+        z-index: 0;
+    }
+
+    #item-1:checked~.cards #song-2,
+    #item-2:checked~.cards #song-3,
+    #item-3:checked~.cards #song-1 {
+        transform: translatex(40%) scale(.5);
+        opacity: .4;
+        z-index: 0;
+    }
+
+    #item-1:checked~.cards #song-1,
+    #item-2:checked~.cards #song-2,
+    #item-3:checked~.cards #song-3 {
+        transform: translatex(0) scale(.7);
+        opacity: 1;
+        z-index: 1;
+
+        #fotos {
+            box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+        }
+    }
+
+    .titulo02 {
+        font-size: 20pt;
+        color: white;
+
+        margin-top: 50px;
+        margin-bottom: -20px;
+        padding-bottom: 20px;
+
+
+        text-align: center;
+    }
+
+    #texto02 {
+        font-size: 22px;
+        width: 600px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        text-align: justify;
+    }
+
+    form {
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 15px;
+        max-width: 600px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 300px;
+
+        text-align: center;
+    }
+
+    form h2 {
+        color: white;
+        font-size: 50px;
+        width: 530px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    input,
+    textarea {
+        width: 200px;
+        padding: 4px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    input {
+        background: transparent;
+        color: white;
+
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid rgb(79, 79, 79);
+
+    }
+
+    input:focus {
+        outline: none;
+        border-bottom-color: green;
+    }
+
+
+    input:not(:focus) {
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid rgb(79, 79, 79);
+    }
+
+    textarea {
+        background: transparent;
+        border: 2px solid rgb(79, 79, 79);
+        margin-top: 40px;
+        width: 500px;
+        height: 170px;
+        line-height: 20px;
+        color: white;
+    }
+
+    .enviar {
+        background-color: rgb(39, 174, 96);
+        height: 40px;
+        width: 100px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid;
+        color: black;
+    }
+
+    .enviar:not(:focus) {
+        background-color: green;
+    }
+
+    .topo {
+        position: fixed;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(39, 174, 96);
+        padding: 10px;
+
+        top: 950px;
+        right: 30px;
+
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 1440px) {
+    body {
+        max-width: 1440px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 1px;
+    }
+
+    header {
+
+        margin-left: auto;
+        margin-left: auto;
+        margin-top: -10px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 940px;
+    }
+
+    .centro {
+        font-size: 40px;
+
+        text-align: left;
+
+        padding: 10px;
+
+        margin-top: 180px;
+        margin-left: 20px;
+    }
+
+    .função {
+        color: grey;
+        font-size: 22px;
+
+        margin-top: -50px;
+        margin-left: 10px;
+    }
+
+    .cv {
+        display: flex;
+        justify-content: space-between;
+
+        margin-top: -10px;
+        margin-left: 10px;
+
+        width: 320px;
+        height: 60px;
+
+    }
+
+    .baixar {
+        background-color: rgb(39, 174, 96);
+        padding: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        width: 150px;
+        cursor: pointer;
+        font-size: 18px;
+        line-height: 35px;
+        text-align: center;
+        color: black;
+    }
+
+    .baixar:hover {
+        box-shadow: 4px 4px 1px rgba(39, 174, 96, .3);
+    }
+
+    .site {
+        border: 2px rgb(255, 255, 255) solid;
+        color: white;
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 5px;
+        width: 150px;
+        cursor: pointer;
+        font-size: 18px;
+        text-align: center;
+        line-height: 35px;
+
+    }
+
+    .site:hover {
+        box-shadow: 4px 4px 1px rgba(255, 255, 255, .3);
+    }
+
+    .pcs {
+        margin-left: 560px;
+        margin-top: -300px;
+    }
+
+    .descrição {
+        width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .texto01 {
+        font-size: 22px;
+        color: white;
+        text-align: justify;
+        padding: 10px;
+        margin-top: -20px;
+    }
+
+    .Contato {
+        display: flex;
+        justify-content: space-between;
+        font-size: 26px;
+        color: white;
+        width: 900px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .Contato div {
+        flex-basis: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Contato p {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: green;
+    }
+
+    .Contato a {
+        text-decoration: none;
+        color: green;
+        font-size: 20px;
+
+    }
+
+    .Contato a:hover {
+        color: purple;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        color: purple;
+    }
+
+    .Tlogos {
+        font-size: 30pt;
+    }
+
+    .logo-item p {
+        font-size: 25px;
+    }
+
+    .projetos {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+
+    }
+
+    .titulo01 {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        padding: 6px;
+        margin-top: 155px;
+    }
+
+    .titulo04 {
+        font-size: 30pt;
+        color: white;
+        margin-top: 50px;
+        margin-left: px;
+        margin-bottom: -20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        max-width: 768px;
+        /* Adjust the maximum width as needed */
+        height: auto;
+        /* Adjust the height as needed */
+        margin: 0 auto;
+        /* Center the container horizontally */
+
+        transform-style: preserve-3d;
+        margin-top: 50px;
+        /* Adjust the top margin as needed */
+        margin-left: 20px;
+        margin-bottom: -60px;
+    }
+
+    .cards {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    #fotos {
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    #item-1:checked~.cards #song-3,
+    #item-2:checked~.cards #song-1,
+    #item-3:checked~.cards #song-2 {
+        transform: translatex(-40%) scale(.6);
+        opacity: .4;
+        z-index: 0;
+    }
+
+    #item-1:checked~.cards #song-2,
+    #item-2:checked~.cards #song-3,
+    #item-3:checked~.cards #song-1 {
+        transform: translatex(40%) scale(.6);
+        opacity: .4;
+        z-index: 0;
+    }
+
+    #item-1:checked~.cards #song-1,
+    #item-2:checked~.cards #song-2,
+    #item-3:checked~.cards #song-3 {
+        transform: translatex(0) scale(.8);
+        opacity: 1;
+        z-index: 1;
+
+        #fotos {
+            box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+        }
+    }
+
+    .titulo02 {
+        font-size: 20pt;
+        color: white;
+
+        margin-top: 50px;
+        margin-bottom: -20px;
+        padding-bottom: 20px;
+
+
+        text-align: center;
+    }
+
+    #texto02 {
+        font-size: 22px;
+        width: 600px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        text-align: justify;
+    }
+
+    form {
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 15px;
+        max-width: 1000px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 300px;
+
+        text-align: center;
+    }
+
+    form h2 {
+        color: white;
+        font-size: 50px;
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    input,
+    textarea {
+        width: 300px;
+        padding: 4px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    input {
+        background: transparent;
+        color: white;
+
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid rgb(79, 79, 79);
+
+    }
+
+    input:focus {
+        outline: none;
+        border-bottom-color: green;
+    }
+
+
+    input:not(:focus) {
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid rgb(79, 79, 79);
+    }
+
+    textarea {
+        background: transparent;
+        border: 2px solid rgb(79, 79, 79);
+        margin-top: 40px;
+        width: 700px;
+        height: 200px;
+        line-height: 20px;
+        color: white;
+    }
+
+    .enviar {
+        background-color: rgb(39, 174, 96);
+        height: 50px;
+        width: 100px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid;
+        color: black;
+    }
+
+    .enviar:not(:focus) {
+        background-color: green;
+    }
+
+    .topo {
+        position: fixed;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(39, 174, 96);
+        padding: 10px;
+
+        top: 950px;
+        right: 30px;
+
+    }
+}
+
+@media screen and (min-width: 1441px) {
+
+    body {
+        background-color: rgb(26, 22, 24);
+
+        max-width: 1920px;
+    }
+
+    header {
+
+        width: 1600px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -20px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 20px;
+    }
+
+    nav {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+    }
+
+    .centro {
+        font-size: 25pt;
+
+        text-align: left;
+
+        padding: 10px;
+
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+
+    .função {
+        color: grey;
+        font-size: 16pt;
+
+        margin-top: -25px;
+        margin-left: 10px;
+    }
+
+    .cv {
+
+        display: flex;
+        justify-content: space-between;
+
+        margin-top: -10px;
+        margin-left: 10px;
+
+        width: 500px;
+    }
+
+    .baixar {
+        background-color: rgb(39, 174, 96);
+
+        padding: 15px;
+        margin-right: 20px;
+
+        border-radius: 5px;
+
+        width: 280px;
+
+        cursor: pointer;
+
+        font-size: 14pt;
+        text-align: center;
+        color: black;
+    }
+
+    .baixar a:hover {
+        color: purple;
+    }
+
+    .baixar:hover {
+        box-shadow: 4px 4px 1px rgba(39, 174, 96, .3);
+    }
+
+    .site {
+        border: 2px rgb(255, 255, 255) solid;
+        color: white;
+        padding: 15px;
+        margin-left: 20px;
+        border-radius: 5px;
+        width: 250px;
+        cursor: pointer;
+        font-size: 14pt;
+        text-align: center;
+
+    }
+
+    .site:hover {
+        box-shadow: 4px 4px 1px rgba(255, 255, 255, .3);
+    }
+
+    .pcs {
+        margin-left: 800px;
+        margin-top: -315px;
+    }
+
+    .descrição {
+
+        width: 1000px;
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 300px;
+    }
+
+    .titulo01 {
+        font-size: 25pt;
+        color: white;
+
+        text-align: center;
+        padding: 10px;
+
+        margin-top: 80px;
+
+    }
+
+    .texto01 {
+        font-size: 17pt;
+        color: white;
+
+        text-align: justify;
+
+        padding: 10px;
+    }
+
+    #texto02 {
+        font-size: 15pt;
+        width: 600px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        text-align: justify;
+    }
+
+    .Contato {
+        display: flex;
+        justify-content: space-between;
+
+        font-size: 14pt;
+        color: white;
+
+        width: 1000px;
+
+    }
+
+    .Contato div {
+        flex-basis: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Contato p {
+        margin-top: -10px;
+        margin-bottom: 10px;
+    }
+
+    .Contato a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .Contato a:hover {
+        color: rgb(39, 174, 96);
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        color: purple;
+    }
+
+    .projetos {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+
+    .titulo02 {
+        font-size: 20pt;
+        color: white;
+
+        margin-top: 50px;
+        margin-bottom: -20px;
+        padding-bottom: 20px;
+
+
+        text-align: center;
+    }
+
+    .titulo04 {
+        font-size: 30pt;
+        color: white;
+        margin-top: 50px;
+        margin-left: px;
+        margin-bottom: -20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+        height: 100%;
+
+        max-width: 800px;
+        max-height: 600px;
+
+        margin-left: 415px;
+        margin-top: 50px;
+
+        transform-style: preserve-3d;
+    }
+
+    .cards {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    #fotos {
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+    #item-1:checked~.cards #song-3,
+    #item-2:checked~.cards #song-1,
+    #item-3:checked~.cards #song-2 {
+        transform: translatex(-40%) scale(.8);
+        opacity: .4;
+        z-index: 0;
+    }
+
+    #item-1:checked~.cards #song-2,
+    #item-2:checked~.cards #song-3,
+    #item-3:checked~.cards #song-1 {
+        transform: translatex(40%) scale(.8);
+        opacity: .4;
+        z-index: 0;
+    }
+
+    #item-1:checked~.cards #song-1,
+    #item-2:checked~.cards #song-2,
+    #item-3:checked~.cards #song-3 {
+        transform: translatex(0) scale(1);
+        opacity: 1;
+        z-index: 1;
+
+        #fotos {
+            box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+        }
+    }
+
+    form {
+        font-family: Verdana, Tahoma, sans-serif;
+        font-size: 15px;
+        max-width: 800px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: 300px;
+
+        text-align: center;
+    }
+
+    form h2 {
+        color: white;
+        font-size: 50px;
+        width: 530px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    input,
+    textarea {
+        width: 340px;
+        padding: 4px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    input {
+        background: transparent;
+        color: white;
+
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid rgb(79, 79, 79);
+
+    }
+
+    input:focus {
+        outline: none;
+        border-bottom-color: green;
+    }
+
+    input:not(:focus) {
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid rgb(79, 79, 79);
+    }
+
+    textarea {
+        background: transparent;
+        border: 2px solid rgb(79, 79, 79);
+        margin-top: 40px;
+        width: 745px;
+        height: 170px;
+        line-height: 20px;
+        color: white;
+    }
+
+    .enviar {
+        background-color: rgb(39, 174, 96);
+        height: 40px;
+        width: 100px;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 1px solid;
+        color: black;
+    }
+
+    .enviar:not(:focus) {
+        background-color: green;
+    }
+
+    .topo {
+        position: fixed;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(39, 174, 96);
+        padding: 10px;
+
+        top: 850px;
+        right: 60px;
+
+    }
+
+}
